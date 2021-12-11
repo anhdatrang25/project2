@@ -1,91 +1,95 @@
 .tieu-de {
-    padding-top: 15px;
-    display: flex;
-    text-decoration: none;
-    background-color: #18254A;
+  padding-top: 15px;
+  display: flex;
+  text-decoration: none;
+  background-color: #18254a;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .tieu-de1 ul li {
-    list-style-type: none;
-    display: inline;
-    margin-left: 20px;
+  list-style-type: none;
+  display: inline;
+  margin-left: 20px;
 }
 
 .tieu-de1 {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .li1 {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a:hover {
-    color: red;
+  color: red;
 }
 
 .tieu-de2 {
-    margin-left: 650px;
+  margin-left: 650px;
 }
 
 .nut_dropdown {
-    background-color: #FA394A;
-    color: antiquewhite;
-    padding: 16px;
-    font-size: 16px;
-    border-radius: 25px;
+  background-color: #fa394a;
+  color: antiquewhite;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 25px;
 }
 
 .cuoi {
-    background-color: #18254A;
-    display: flex;
-    margin: 0;
-    padding: 0;
+  background-color: #18254a;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .cuoi1 {
-    font-size: 20px;
-    margin-left: 150px;
-    font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .cuoi1 ul li {
-    list-style: none;
-    padding-top: 7px;
-    animation: color 0.5s infinite;
-    -webkit-animation: color 5s infinite;
-    -moz-animation: color 5s infinite;
-    -o-animation: color 0.5s infinite
+  list-style: none;
+  padding-top: 7px;
+  animation: color 0.5s infinite;
+  -webkit-animation: color 5s infinite;
+  -moz-animation: color 5s infinite;
+  -o-animation: color 0.5s infinite;
 }
 
 @keyframes color {
-    0% {
-        color: yellowgreen;
-        color: white;
-        color: #FA394A;
-    }
-    50% {
-        color: red;
-        color: yellow;
-        color: chocolate;
-    }
+  0% {
+    color: yellowgreen;
+    color: white;
+    color: #fa394a;
+  }
+  50% {
+    color: red;
+    color: yellow;
+    color: chocolate;
+  }
 }
 
 .keotha {
-    padding-left: 1000px;
+  padding-left: 1000px;
 }
 
 .than {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#abc {
+  margin-left: 100px;
+  width: 30%;
 }
